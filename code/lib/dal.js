@@ -4,7 +4,7 @@ var databaseUrl;
 if (config.database.mode==='local'){
 	databaseUrl ="local"; 
 } else {
-	databaseUrl = `mongodb+srv://ankit:ankit1329@cluster0-twrks.mongodb.net/test?retryWrites=true`;
+	databaseUrl = `mongodb://ankit:ankit1329@ds141720.mlab.com:41720/test0`;
 	/*"mongodb://" + config.mongo.user + ":nopassword@" + config.mongo.host + ":" + config.mongo.port + "/" + config.mongo.db;*/ // "username:password@example.com/mydb"
 }
 var collections = ["users", "tables","sessions"];
