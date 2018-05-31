@@ -1,7 +1,9 @@
 {
   "name": "code",
   "version": "0.0.0",
-  "start": "node code/app.js",
+  "scripts": {
+    "start": "node code/app.js"
+  },
   "private": true,
   "dependencies": {
     "body-parser": "~1.8.1",
